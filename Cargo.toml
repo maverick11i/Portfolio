@@ -1,0 +1,3 @@
+[workspace]
+members = ["portfolio-core", "portfolio-services", "portfolio-app"]
+resolver = "2"

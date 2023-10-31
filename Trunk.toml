@@ -1,0 +1,15 @@
+
+[build]
+target = "./portfolio-app/index.html"
+dist = "./dist"
+
+[serve]
+address = "127.0.0.1"
+port = 8080
+
+[watch]
+watch = [
+    "./portfolio-core/src/",
+    "./portfolio-services/src/",
+    "./portfolio-app/src/",
+]
